@@ -23,6 +23,20 @@ function mostrarAmigos() {
     });
 }
 
+function sortearAmigo() {
+    const resultado = document.getElementById('resultado');
+    const lista = document.getElementById('listaAmigos');
+    if (amigos.length === 0) {
+        resultado.innerHTML = "<li>No hay amigos para sortear.</li>";
+        return;
+    }
+    const indice = Math.floor(Math.random() * amigos.length);
+    const nombreSorteado = amigos[indice];
+    resultado.innerHTML = `<li>El amigo sorteado es: <strong>${nombreSorteado}</strong></li>`;
+    amigos = []; // Vacía el array de amigos
+    lista.innerHTML = ""; // Limpia la lista en pantalla
+}
+
 // Cambia el color del botón según el input
 const inputAmigo = document.getElementById('amigo');
 const botonAdd = document.querySelector('.button-add');
