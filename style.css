@@ -184,7 +184,7 @@ ul {
     }
     .header-banner {
         width: 100%;
-        flex: initial; /* Sobrescribe el flex: 40% */
+        flex: none;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -198,6 +198,10 @@ ul {
         text-align: center;
         word-break: break-word;
         margin-bottom: 0;
+        max-width: 90vw;
+        width: 100%;
+        white-space: normal;
+        overflow-wrap: break-word;
     }
     .img-responsive {
         width: 70vw;
