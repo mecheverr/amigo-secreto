@@ -54,11 +54,13 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    text-align: center;
+    word-break: break-word;
 }
 
 .section-title {
@@ -177,5 +179,10 @@ ul {
 @media (max-width: 600px) {
     .img-responsive {
         width: 90%;
+    }
+
+    .main-title {
+        font-size: 1.7rem;
+        padding: 0 10px;
     }
 }
