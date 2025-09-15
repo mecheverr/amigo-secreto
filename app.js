@@ -8,6 +8,8 @@ function agregarAmigo() {
         input.value = ""; // Limpia el input
         mostrarAmigos(); // Actualiza la lista en pantalla
         botonAdd.classList.remove('activo'); // Quita el color verde    
+    }else {
+        alert("Por favor, inserte un nombre.");
     }
 }
 
