@@ -11,7 +11,7 @@ Aplicación web simple para organizar un **sorteo de amigo secreto**. Permite in
 
 ## 🖼️ Vista general
 HTML, CSS y JavaScript vanilla. No requiere backend ni frameworks.
-```
+``` bash
 .
 ├─ assets/
 │ ├─ amigo-secreto.png
@@ -47,7 +47,7 @@ open index.html   # macOS
 # o doble clic en index.html
 ```
 Si prefieres un servidor local:
-```
+``` bash
 python3 -m http.server
 # abre http://localhost:8000 en tu navegador
 ```
