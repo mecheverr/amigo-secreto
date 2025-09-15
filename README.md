@@ -1,6 +1,11 @@
 # Amigo Secreto
 
-Aplicación web simple para organizar un **sorteo de amigo secreto**. Permite ingresar nombres, listarlos y realizar un sorteo aleatorio mostrando el resultado en pantalla.
+Aplicación web simple para organizar un **sorteo de amigo secreto**.  
+
+## 🌐 Publicación
+La aplicación está disponible en GitHub Pages en la siguiente URL:  
+👉 [https://mecheverr.github.io/amigo-secreto/](https://mecheverr.github.io/amigo-secreto/)
+
 
 ## ✨ Características
 - Agregar nombres a una lista dinámica.
