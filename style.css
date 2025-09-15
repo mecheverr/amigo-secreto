@@ -184,11 +184,11 @@ ul {
     }
     .header-banner {
         width: 100%;
-        flex: none;
+        flex: initial; /* Sobrescribe el flex: 40% */
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 12px;
         padding: 20px 0 0;
     }
@@ -197,13 +197,15 @@ ul {
         padding: 0 10px;
         text-align: center;
         word-break: break-word;
+        margin-bottom: 0;
     }
     .img-responsive {
-        width: 80%;
-        max-width: 220px;
+        width: 70vw;
+        max-width: 180px;
+        margin-bottom: 0;
     }
     .input-section {
-        flex: none;
+        flex: initial; /* Sobrescribe el flex: 60% */
         width: 100%;
         border-radius: 32px 32px 0 0;
         padding: 16px 0 0 0;
