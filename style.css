@@ -165,3 +165,17 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Imagen responsiva */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .img-responsive {
+        width: 90%;
+    }
+}
